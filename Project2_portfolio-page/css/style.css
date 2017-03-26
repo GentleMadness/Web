@@ -1,0 +1,72 @@
+#titlefont{
+    font-family: 'Architects Daughter', cursive;
+    }
+
+body{
+    color: white !important;
+    background-image: url(http://www.wallpaperhd.pk/wp-content/uploads/2015/04/coffee-background-wallpaper.jpg);
+    background-size: 1500px 1300px;
+    background-repeat: no-repeat;
+    }
+
+h1{
+    font-size: 500% !important;
+}
+
+p{
+    text-indent: 50px;
+    padding-top:2%;
+    padding-left:6%;
+    line-height: 150%;    
+}
+
+.navfont{
+    font-size: 130%;
+}
+    
+.projectintro{
+    padding:0 0 20px 0;
+}
+.well{
+    background-color: #d2a679 !important;
+    border-style: inset;
+    font-size: 170%;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 80%;
+      margin:auto;
+  }
+
+/* make sidebar nav vertical */ 
+@media (min-width: 784px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  
+  .sidebar-nav .navbar ul {
+    float: none;
+    margin:0;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  li a.active {
+    background-color: #d9b38c !important;
+    color: white;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #d9b38c !important;
+    color: white;
+  }
+}
